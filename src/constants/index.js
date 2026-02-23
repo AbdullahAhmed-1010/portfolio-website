@@ -243,7 +243,7 @@ const projects = [
   {
     name: "HireSense - Modern Job Portal Platform",
     description:
-      "HireSense is a full-stack job portal application designed to bridge the gap between job seekers and recruiters through a clean UI, scalable backend, and real-world production practices. It enables recruiters to post and manage jobs. Built with a modern React UI stack(shadcn/ui), Node.js, Express, and MongoDB, featuring secure authentication(JWT-based), role-based access, job postings, resume uploads using multer, and Cloudinary-powered media handling.",
+      "HireSense is a full-stack job portal application designed to bridge the gap between job seekers and recruiters through a clean UI, scalable backend, and real-world production practices. It enables recruiters to post and manage jobs.",
     tags: [
       {
         name: "react",
@@ -288,7 +288,7 @@ const projects = [
   {
     name: "Blog Media - Blogging Platform",
     description:
-      "Developed a blogging platform using Node.js, Express, and MongoDB, featuring secure RESTful APIs for user and content management, enabling users to create, read, update and delete blog posts (CRUD operations). Integrated Cloudinary for cloud-based media management (file uploads and CDN delivery) improving user experience and scalability. Implemented JWT authentication and role-based access to secure backend services and protect user data. Integrated multer for file uploads.",
+      "Developed a blogging platform using Node.js, Express, and MongoDB, featuring secure RESTful APIs for user and content management, enabling users to create, read, update and delete blog posts (CRUD operations).",
     tags: [
       {
         name: "nodejs",
@@ -333,7 +333,7 @@ const projects = [
   {
     name: "Daily-Digest",
     description:
-      "This is a modern blog application built using React for the frontend and Appwrite as the backend-as-a-service. The app enables users to create, read, update, and delete blog posts (CRUD operations) with a clean and responsive user interface for user and content management, enabling users to create, read, update and delete blog posts (CRUD operations). Integrated Cloudinary for cloud-based media management (file uploads and CDN delivery) improving user experience and scalability. Implemented JWT authentication and role-based access to secure backend services and protect user data. Integrated multer for file uploads.",
+      "This is a modern blog application built using React for the frontend and Appwrite as the backend-as-a-service. The app enables users to create, read, update, and delete blog posts (CRUD operations) with a clean and responsive user interface for user and content management, enabling users to create, read, update and delete blog posts (CRUD operations).",
     tags: [
       {
         name: "nodejs",
