@@ -1,112 +1,16 @@
-# Portfolio Website
+# React + Vite
 
-A modern, animated portfolio website built with React, Three.js, GSAP, and Tailwind CSS.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- ?? Modern UI with custom color scheme (White, Dark Cyan, Very Dark Blue)
-- ? Smooth animations using GSAP
-- ?? 3D particle background with Three.js
-- ?? Fully responsive design
-- ?? Interactive resume flowchart
-- ?? Automated deployment with GitHub Actions and Vercel
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Tech Stack
+## React Compiler
 
-- React 18
-- Vite
-- Three.js (@react-three/fiber, @react-three/drei)
-- GSAP (GreenSock Animation Platform)
-- Tailwind CSS
-- JavaScript (ES6+)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Getting Started
+## Expanding the ESLint configuration
 
-### Prerequisites
-
-- Node.js 18+ and npm
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd Portfolio
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open your browser and navigate to `http://localhost:5173`
-
-## Building for Production
-
-```bash
-npm run build
-```
-
-The production build will be in the `dist` directory.
-
-## Deployment
-
-### Vercel
-
-1. Connect your GitHub repository to Vercel
-2. Vercel will automatically detect the Vite configuration
-3. Deployments will happen automatically on push to main branch
-
-### GitHub Actions
-
-The workflow is configured in `.github/workflows/deploy.yml`. You'll need to set up the following secrets in your GitHub repository:
-
-- `VERCEL_TOKEN`: Your Vercel API token
-- `VERCEL_ORG_ID`: Your Vercel organization ID
-- `VERCEL_PROJECT_ID`: Your Vercel project ID
-
-## Project Structure
-
-```
-Portfolio/
-??? public/          # Static assets
-??? src/
-?   ??? components/  # React components
-?   ??? hooks/        # Custom React hooks
-?   ??? utils/        # Utility functions and data
-?   ??? styles/       # Global styles
-?   ??? App.jsx       # Main app component
-?   ??? main.jsx     # Entry point
-??? .github/          # GitHub Actions workflows
-??? vercel.json       # Vercel configuration
-```
-
-## Customization
-
-### Profile Picture
-
-Place your profile picture at `public/profile-picture.jpg`. If not found, a placeholder avatar will be generated.
-
-### Resume Data
-
-Edit `src/utils/resumeData.js` to update your personal information, skills, projects, and achievements.
-
-### Colors
-
-Colors are configured in `tailwind.config.js`:
-- Dark Cyan: `#008B8B`
-- Very Dark Blue: `#0A192F`
-- White: `#FFFFFF`
-
-## License
-
-MIT License
-
-## Author
-
-Abdullah Ahmed
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
