@@ -40,6 +40,9 @@ import {
   langchain,
   udemyFullStack,
   gitCertificate,
+  sih,
+  techno,
+  scienceModel,
 } from "../assets";
 
 export const navLinks = [
@@ -255,6 +258,27 @@ const certifications = [
     date: "2025",
     image: gitCertificate,
     link: "https://drive.google.com/file/d/1oavhHtdpWLSBfs0zts97ictWpWAqM7xf/view",
+  },
+  {
+    title: "Smart India Hackathon 2024",
+    issuer: "Calcutta Institute of Engineering and Managment",
+    date: "2024",
+    image: sih,
+    link: "https://drive.google.com/file/d/1jJ6l_4m-GDz-TH0sk3x54Cx99olrucoN/view",
+  },
+  {
+    title: "Techno geekHack1.0",
+    issuer: "GeeksforGeeks x TMSL",
+    date: "2025",
+    image: techno,
+    link: "https://drive.google.com/file/d/1XtXYS-eXuTNFHVgD6J0ee-PV8Bu_hzre/view",
+  },
+  {
+    title: "Science Model Making Workshop",
+    issuer: "Calcutta Institute of Engineering and Managment",
+    date: "March 2024",
+    image: scienceModel,
+    link: "https://drive.google.com/file/d/1hikyT68h2bYVpP1yejiRox8URecjlyM_/view",
   },
 ];
 

@@ -47,7 +47,7 @@ const CertificationCard = ({
   </motion.div>
 );
 
-const Certfications = () => {
+const Certifications = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div
@@ -55,7 +55,7 @@ const Certfications = () => {
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>My Learning Journey</p>
-          <h2 className={styles.sectionHeadText}>Certfications.</h2>
+          <h2 className={styles.sectionHeadText}>Certifications.</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
@@ -67,4 +67,4 @@ const Certfications = () => {
   );
 };
 
-export default SectionWrapper(Certfications, "certifications");
+export default SectionWrapper(Certifications, "certifications");
