@@ -44,6 +44,8 @@ import blog from "./blog.png";
 import digest from "./digest.png";
 import tripguide from "./tripguide.png";
 import profilePhoto from "./profile-photo.png";
+import udemyFullStack from "./certificates/udemy-angela-yu.jpg";
+import gitCertificate from "./certificates/gitW3schools.png";
 
 export {
   logo,
@@ -90,4 +92,6 @@ export {
   education,
   hackathon,
   onlinecertificate,
+  udemyFullStack,
+  gitCertificate,
 };

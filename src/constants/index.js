@@ -38,6 +38,8 @@ import {
   googlegemini,
   huggingface,
   langchain,
+  udemyFullStack,
+  gitCertificate,
 } from "../assets";
 
 export const navLinks = [
@@ -58,8 +60,8 @@ export const navLinks = [
     title: "Projects",
   },
   {
-    id: "testimonials",
-    title: "Testimonials",
+    id: "certifications",
+    title: "Certifications",
   },
   {
     id: "contact",
@@ -212,30 +214,47 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+// const testimonials = [
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Abdullah does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Abdullah optimized our website, our traffic increased by 50%. We can't thank him enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
+
+const certifications = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    title: "Complete Full Stack Web Development Bootcamp",
+    issuer: "Udemy - Angela Yu",
+    date: "2024",
+    image: udemyFullStack,
+    link: "https://udemy-certificate.s3.amazonaws.com/image/UC-af98a727-8772-4cbc-b436-00b704e772a5.jpg",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Abdullah does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Abdullah optimized our website, our traffic increased by 50%. We can't thank him enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Git and Version Control - Certified Git Practitioner",
+    issuer: "W3 Schools - Thomas",
+    date: "2025",
+    image: gitCertificate,
+    link: "https://drive.google.com/file/d/1oavhHtdpWLSBfs0zts97ictWpWAqM7xf/view",
   },
 ];
 
@@ -365,4 +384,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, certifications, projects };
