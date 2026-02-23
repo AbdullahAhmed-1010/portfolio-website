@@ -46,9 +46,10 @@ import tripguide from "./tripguide.png";
 import profilePhoto from "./profile-photo.png";
 import udemyFullStack from "./certificates/udemy-angela-yu.jpg";
 import gitCertificate from "./certificates/gitW3schools.png";
-import sih from "./certificates/sih.jpg"
-import techno from "./certificates/techno.jpg"
-import scienceModel from "./certificates/science.jpg"
+import sih from "./certificates/sih.jpg";
+import techno from "./certificates/techno.jpg";
+import scienceModel from "./certificates/science.jpg";
+import resume from "./resume/abdullah ahmed.pdf";
 
 export {
   logo,
@@ -100,4 +101,5 @@ export {
   sih,
   techno,
   scienceModel,
+  resume,
 };
