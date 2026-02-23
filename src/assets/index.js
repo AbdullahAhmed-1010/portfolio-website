@@ -16,6 +16,8 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import express from "./tech/express.jpg";
+import postgres from "./tech/postgresql.jpg";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -23,6 +25,11 @@ import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
 import java from "./tech/java.png";
 import c from "./tech/c.png";
+import appwrite from "./tech/appwrite.png"
+import cursor from "./tech/cursor.png"
+import googlegemini from "./tech/googlegemini.png"
+import huggingface from "./tech/huggingface.png"
+import langchain from "./tech/langchain.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -54,7 +61,9 @@ export {
   html,
   javascript,
   mongodb,
+  postgres,
   nodejs,
+  express,
   reactjs,
   redux,
   tailwind,
@@ -71,6 +80,11 @@ export {
   python,
   java,
   c,
+  appwrite,
+  cursor,
+  googlegemini,
+  huggingface,
+  langchain,
   blog,
   digest,
   education,

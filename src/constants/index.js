@@ -14,6 +14,7 @@ import {
   redux,
   tailwind,
   nodejs,
+  express,
   mongodb,
   git,
   figma,
@@ -31,6 +32,12 @@ import {
   onlinecertificate,
   tripguide,
   threejs,
+  postgres,
+  appwrite,
+  cursor,
+  googlegemini,
+  huggingface,
+  langchain,
 } from "../assets";
 
 export const navLinks = [
@@ -93,21 +100,29 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Express",
+    icon: express,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgres,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "Python",
     icon: python,
@@ -120,6 +135,26 @@ const technologies = [
     name: "C",
     icon: c,
   },
+  // {
+  //   name: "Appwrite",
+  //   icon: appwrite,
+  // },
+  {
+    name: "Cursor",
+    icon: cursor,
+  },
+  {
+    name: "Langchain",
+    icon: langchain,
+  },
+  {
+    name: "Hugging Face",
+    icon: huggingface,
+  },
+  // {
+  //   name: "Gemini",
+  //   icon: googlegemini,
+  // },
   {
     name: "Git",
     icon: git,
@@ -135,7 +170,6 @@ const experiences = [
     date: "August 2023 - July 2027 (expected)",
     points: [
       "Computer Science and Engineering | MAKAUT",
-      "Current Percentage: 71.6%",
       "Focusing on backend development, databases, and system architecture",
       "Building practical projects alongside academic coursework",
     ],
@@ -157,7 +191,7 @@ const experiences = [
     company_name: "Participant",
     icon: hackathon,
     iconBg: "#383E56",
-    date: "2024",
+    date: "2025",
     points: [
       "Participated in Techno Geeks Hack 1.0 Hackathon",
       "Gained hands-on experience in rapid prototyping",
