@@ -41,6 +41,7 @@ A modern, responsive, and interactive portfolio website built with **React, Vite
 ---
 
 ## Project Structure
+```bash
 src/
 ├── components/
 │ ├── About.jsx
@@ -54,6 +55,7 @@ src/
 ├── hoc/
 ├── styles.js
 └── utils/
+```
 
 ---
 
@@ -76,8 +78,9 @@ VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
 VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
 
 Restart the development server after adding environment variables.
+```
 
-Deployment
+## Deployment
 
 This project can be deployed on:
 
@@ -87,7 +90,7 @@ GitHub Pages
 
 Make sure to add environment variables in your deployment platform settings.
 
-Purpose
+## Purpose
 
 This portfolio was built to:
 
@@ -96,7 +99,7 @@ Highlight projects and certifications
 Demonstrate modern React + 3D UI capabilities
 Provide a professional online presence
 
-Contact Me
+## Contact Me
 
 Email: abdullah.ahmed.pisces1010@gmail.com
 LinkedIn: www.linkedin.com/in/abdullah-ahmed-8b1351320
